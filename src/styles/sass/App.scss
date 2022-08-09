@@ -1,0 +1,12 @@
+@import './_vars.scss';
+
+.App {
+	h1 {
+		color: $main-color;
+		text-align: center;
+	}
+	h3 {
+		color: $secondary-color;
+		text-align: center;
+	}
+}
