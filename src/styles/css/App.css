@@ -1,9 +1,13 @@
+body {
+  background-color: #f8f8f2;
+}
+
 .App h1 {
   color: #8248f8;
   text-align: center;
 }
 .App h3 {
-  color: #32DBCD;
+  color: #8be9fd;
   text-align: center;
 }
 

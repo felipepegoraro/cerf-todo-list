@@ -1,3 +1,4 @@
+import Cards from './components/Cards'
 import CardGenerator from './components/CardGenerator'
 import './styles/css/App.css'
 
@@ -8,6 +9,7 @@ function App() {
 				<h1 className="title">Lista de afazeres</h1>
 				<h3 className="subtitle">Coloque aqui suas tarefas do dia</h3>
 				<CardGenerator />
+				<Cards />
 			</div>
     </div>
   );
