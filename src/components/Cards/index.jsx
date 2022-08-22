@@ -1,0 +1,27 @@
+import Card from '../Card'
+import '../../styles/css/Cards.css'
+
+const Cards = (props) => {
+	// console.log(props, "props");
+
+	const { info, setCards } = props;
+
+	const handleRemove = (id) => {
+		console.log(id);
+		setCards(info.filter((item, index) => index !== id))
+	}
+
+	return (
+		<div className="cards">
+		{
+			info.map((item, index)=>{
+				return (
+					<Card key={index} text={item} changed={handleRemove} id={index} />
+				)
+			})
+		}
+		</div>
+	)
+}
+
+export default Cards

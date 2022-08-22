@@ -1,0 +1,29 @@
+.card {
+  padding: 10px;
+  margin: 15px;
+  background-color: #bd93f9;
+  min-width: 125px;
+  min-height: 125px;
+  border-radius: 15px;
+}
+.card .card-inner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.card .card-inner .card-remove {
+  font-weight: bold;
+  color: #282a36;
+  display: flex;
+}
+.card .card-inner .card-text {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #282a36;
+  font-family: sans-serif;
+  text-shadow: -1px 1px #f8f8f2;
+}
+
+/*# sourceMappingURL=Card.css.map */

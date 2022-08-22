@@ -1,0 +1,39 @@
+.card-generator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-generator form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-generator form input {
+  padding: 5px;
+  border-radius: 8px;
+  border: solid 1px #000000;
+  margin-top: 8px;
+}
+
+.card-generator_options {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card-generator form button {
+  padding: 5px 15px;
+  margin: 5px 3px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #50ee6b;
+}
+
+/*# sourceMappingURL=cardGenerator.css.map */
